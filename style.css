@@ -157,3 +157,29 @@ justify-content: space-evenly;
     font-size: 0.9rem;
     font-weight: 700;
 }
+
+/* hero section*/
+.hero-section{
+    background-image: url("images/hero_image.jpg");
+    height: 600px ;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+.hero-msg{
+    font: 0.85rem;
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin-bottom: 270px;
+    
+}
+.hero-msg a{
+    color: #007181;
+}
