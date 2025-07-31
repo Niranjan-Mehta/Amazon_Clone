@@ -130,3 +130,30 @@ span{
      font-size: 0.85rem;
     font-weight: 700;
 }
+
+
+/*pannel*/
+
+.pannel{
+color: white;
+height: 40px;
+display: flex;
+background-color: #222f3d;
+align-items: center;
+justify-content: space-evenly;
+}
+.pannel-options p{
+    
+    display: inline;
+    margin-left: 15px;
+}
+.pannel-options{
+    
+    width: 70%;
+    font-size: 0.85rem;
+}
+.pannel-deals{
+    
+    font-size: 0.9rem;
+    font-weight: 700;
+}
