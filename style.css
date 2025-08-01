@@ -160,12 +160,14 @@ justify-content: space-evenly;
 
 /* hero section*/
 .hero-section{
-    background-image: url("images/hero_image.jpg");
-    height: 600px ;
+    background-image:   linear-gradient(to bottom, rgba(255,255,255,0) 60%, #E2E7E6 100%),url("images/hero_image.jpg");
+    height: 400px ;
     background-size: cover;
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    background-blend-mode: normal;
+
 
 }
 .hero-msg{
@@ -177,7 +179,7 @@ justify-content: space-evenly;
     align-items: center;
     justify-content: center;
     width: 80%;
-    margin-bottom: 270px;
+    margin-bottom: 50px;
     
 }
 .hero-msg a{
